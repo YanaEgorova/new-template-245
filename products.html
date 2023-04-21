@@ -140,13 +140,8 @@
                   class="js_success-product-name"></span> to your shopping cart!</p>
             </div>
 
-            <div class="products__block">
-              <div class="swiper mySwiper">
-                <div class="swiper-wrapper js_products__list">
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-            </div>
+      
+            <ul class="js_products__list products__list"></ul>
 
           </section>
         </div>
@@ -244,22 +239,7 @@
       document.body.classList.toggle('open-menu');
     })
   </script>
-  <script src="./js/swiper-bundle.min.js"></script>
-  <script>
-    const swiper = new Swiper(".mySwiper", {
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      breakpoints: {
-        1440: {
-          slidesPerView: 5,
-          spaceBetween: 5,
-          watchSlidesProgress: true,
-        }
-      }
-    });
-  </script>
+
 
 </body>
 
