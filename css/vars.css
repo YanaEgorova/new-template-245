@@ -1,0 +1,23 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  --first-brand-color: #d1d1d1;
+  --second-brand-color: #b9cae0;
+  --third-brand-color: #5387b3;
+  --fourth-brand-color: #53b272;
+
+
+  --main-font:  'Dosis ExtraLight';
+  --title-font:  'Dosis Regular';
+  --main-title-font: 'Dosis Medium';
+
+  font-size: 62.5%;
+}
