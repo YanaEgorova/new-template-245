@@ -70,6 +70,12 @@ body.open-menu {
     display: none;
     align-items: center;
 }
+ .cart__span-box {
+        display: flex;
+        width: 33%;
+        justify-content: center;
+      
+    }
 .cart__span-box svg {
     display: block;
     width: 3rem;
@@ -244,12 +250,12 @@ body.open-menu {
         width: 33%;
     }
   
-    .cart__span-box {
+    /* .cart__span-box {
         display: flex;
         width: 33%;
         justify-content: center;
       
-    }
+    } */
   
     .header__logo {
         width: 33%;
